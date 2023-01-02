@@ -14,7 +14,7 @@
     </title>
 </head>
 
-<body>
+<body id="particles.js">
     <!-- A grey horizontal navbar that becomes vertical on small screens -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
@@ -117,53 +117,50 @@
         </div>
     </div>
 
-    <main>
-        <section>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-            <!-- Carousel -->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
 
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                </div>
-
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/596296.jpeg" alt="Los Angeles" class="d-block w-100 img-Carousel">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/598847.jpg" alt="Chicago" class="d-block w-100 img-Carousel">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/682365.jpg" alt="New York" class="d-block w-100 img-Carousel">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/692095.jpg" alt="New York" class="d-block w-100 img-Carousel">
-                    </div>
-                </div>
-
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/596296.jpeg" alt="Los Angeles" class="d-block w-100 img-Carousel">
             </div>
+            <div class="carousel-item">
+                <img src="img/598847.jpg" alt="Chicago" class="d-block w-100 img-Carousel">
+            </div>
+            <div class="carousel-item">
+                <img src="img/682365.jpg" alt="New York" class="d-block w-100 img-Carousel">
+            </div>
+            <div class="carousel-item">
+                <img src="img/692095.jpg" alt="New York" class="d-block w-100 img-Carousel">
+            </div>
+        </div>
 
-        </section>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
-        <section class="container-fluid">
+    <main>
+        <section class="container" style="background-color: rgba(53, 53, 53, 0.137);">
+            
             <div class="row">
-                <div class="col-sm-6">
-                    <img src="img/0.1-removebg-preview.png" alt="">
+                <div class="col-sm-6 d-inline p-2">
+                    <img src="img/870804.jpg" alt="" class="img-personal">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 d-inline p-2">
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis
                         expedita
                         sequi
@@ -173,7 +170,25 @@
 
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm-6 d-inline p-2">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis
+                        expedita
+                        sequi
+                        eos error, quis obcaecati tempore, reprehenderit esse vel eum eligendi, eveniet dolorum
+                        sit
+                        dolore quisquam nobis enim recusandae?</p>
+
+                </div>
+                <div class="col-sm-6 d-inline p-2">
+                    <img src="img/870804.jpg" alt="" class="img-personal">
+                </div>
+
+            </div>
+
         </section>
+
     </main>
 
     <footer class="text-center text-white bg-dark">
@@ -203,10 +218,14 @@
         </div>
         <!-- Copyright -->
     </footer>
+
 </body>
+
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+<script src="js/particles.js"></script>
+<script src="js/particulas.js"></script>
 
 </html>
