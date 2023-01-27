@@ -1,9 +1,9 @@
 main {
-    background:url(../img/1116286-min.jpg), #000;
+    background:/*url(../img/1116286-min.jpg),*/ #000;
     background-size:cover;
-    
     background-repeat: no-repeat;
 }
+
 .img-Carousel {
     background-size: cover;
     background-repeat: no-repeat;
