@@ -1,5 +1,5 @@
 main {
-    background:/*url(../img/1116286-min.jpg),*/ #000;
+    background:url(../img/1116286-min.jpg), #000;
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -8,13 +8,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-}
-
-.img-personal{
-    background-color: brown;
-    padding: 5px;
-    border: 1px solid black;
-    height: 350px;
 }
 
 .text{
